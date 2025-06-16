@@ -1,13 +1,23 @@
-# Data files
-*.csv
-data/
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Python
+# Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
 
-# OS
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
+Thumbs.db
